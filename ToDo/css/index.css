@@ -1,0 +1,120 @@
+body{
+    background-color:#888;
+    
+}
+*{
+  box-sizing: border-box;
+}
+/*div*/
+.principal{
+  background-color: #f9f9f9;
+ 
+  padding: 30px 40px;
+  color: black;
+  text-align: center;
+  opacity: 0.85;
+  color: white;
+  text-align: center;
+}
+.principal:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#h1Text{
+    text-align: center;
+    box-shadow: 10px 10px 5px #888;
+    background-color:orangered;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+/*input add todo*/
+#inText{
+    margin: 0;
+    border: 1;
+    width: 80%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    opacity:0.5;
+    border-radius: 10px;
+}
+/*botao add todo*/
+#btAdd{
+    text-align: center;
+    margin: 0;
+    border: none;
+    background-color:rgb(248, 176, 176);
+    width: 16%;
+    padding: 10px;
+    float: right;
+    font-size: 16px;
+    border-radius: 10px;
+}
+#btAdd:hover {
+    background-color: rgb(54, 46, 46);
+  }
+
+/*lista e itens da lista com resposta a interações humanas*/
+ul {
+    margin: 0;
+    padding: 0;
+  }
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: rgb(238, 161, 161);
+    font-size: 18px;
+    transition: 0.2s;
+    opacity: 0.7;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+ul li:nth-child(odd) {
+    background: #ee4848;
+    opacity: 0.4;
+  }
+ul li:hover {
+background:rgb(83, 243, 144);
+}
+ul li.checar {
+    background: green;
+    color: #fff;
+    text-decoration:underline;
+    opacity:0.6;
+  }
+ul li.checar::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+/*botao fechar dentro do todo*/
+.fechar{
+  position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    border:1;
+    background-color:red;
+   
+    
+}
+.fechar:hover{
+    background-color: rgb(54, 46, 46);
+    color: white;
+    
+    
+}
