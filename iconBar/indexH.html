@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IconBar</title>
+        <meta charset="utf-8">
+        <meta name='viewport' content="width-device-width, initial-scale=1">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'/>
+        <meta name='author' content='Luis'/>
+        <style>
+                body{margin:0;}
+                /*MENU NA HORIZONTAL*/
+                .iconBar{
+                    width: 100%;
+                    background-color: #555;
+                    opacity:0.9;
+                    overflow: auto;
+    
+                }
+                
+                .iconBar a{
+                    float:left;
+                    text-align: center;
+                    width: 20%;
+                    padding: 12px 0;
+                    transition: all 0.3s ease;
+                    color:blue;
+                    font-size: 36px;
+                }
+                .iconBar a:hover{
+                    background-color:aqua;
+                    opacity: 0.7;
+                }
+                .ativo{
+                    background-color: #04AA6D;
+                }
+                
+        </style>
+    </head>
+    <body>
+        <div class='iconBar'>
+            <a class="ativo" href='#' ><i class="fa fa-home"></i></a>
+            <a  href='#' ><i class="fa fa-search"></i></a>
+            <a  href='#' ><i class="fa fa-envelope"></i></a>
+            <a  href='#' ><i class="fa fa-globe"></i></a>
+            <a  href='#' ><i class="fa fa-trash"></i></a>
+
+        </div>
+    </body>
+
+
+</html>
