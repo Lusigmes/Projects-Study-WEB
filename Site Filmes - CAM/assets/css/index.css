@@ -1,0 +1,145 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 120px;
+    background-color: #2f2f2f;
+}
+.container{
+   
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-color: #e6e6e6;
+    width: 100%;
+    display: flex;
+    padding: 25px;
+    position: fixed;
+    top: 0;
+}
+header .container{
+    display: flex;
+}
+/*logo*/
+header figure{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+header figure img{}
+
+header figure figcaption{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/*menu*/
+
+
+header nav{
+    width: 300px;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+header nav ul li{}
+
+header nav ul li a{
+    color: #1c1c1c;
+    font-size: 20px;
+    font-weight: 400 ;
+
+}
+
+    
+/*conteudo do site*/
+section p{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+/*categorias*/
+section ul.listaCategoria{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0 50px;
+
+
+}
+
+section ul.listaCategoria li {}
+
+section ul.listaCategoria li a{
+    color: #fff;
+    background-color: #0c0c0c;
+    display: block;
+    width: 130px;
+    text-align: center;    
+    border-radius: 50px ;
+    padding: 10px;
+}
+/*lista de filmes*/
+section ul.listaFilme{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+section ul.listaFilme li{
+    max-width: 185px;
+    margin-bottom: 50px;
+    cursor: pointer;
+
+
+}
+section ul.listaFilme li h2{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+section ul.listaFilme li figure{
+    
+}
+section ul.listaFilme li figure img{
+    width: 100%;
+}
+
+/*input e botao pesquisar*/
+section div.buscar{
+    display: flex;
+    
+}
+section div.buscar input.inp{
+    background-color: #2f2f2f;
+    color: #fff;
+    border-radius: 10px;
+  
+    
+    
+}
+section div.buscar button.but{
+    background-color: #000000;
+    color: #fff;
+    padding: 3px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
