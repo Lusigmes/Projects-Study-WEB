@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" href='./assets/css/reset.css'/>
+        <link rel="stylesheet" type="text/css" href='./assets/css/index.css'/>
+        <title>
+            Twitter Interface Clone
+        </title>
+    </head>
+    <body>
+        <div class="container">
+
+            <header class="cabeçalho">
+                <!--Logo-->
+                <figure class="logo">
+                    <img src="./assets/img/bird 1.svg" alt="Twitter Interface Clone">
+                    <figcaption hidden>Twitter Interface Clone</figcaption>
+                </figure>
+    
+                <!--Menu-->
+                <nav class="menuNaveg">
+                    <ul class="menuLista">
+
+                        <li class="menuItem">
+                            <img src="./assets/img/Home.png" alt="home">
+                            <a href="">Página Inicial</a>
+                        </li>
+
+                        <li class="menuItem">
+                            <img src="./assets/img/Hashtag.png" alt="explorar">
+                            <a href="">Explorar</a>
+                        </li>
+
+                        <li class="menuItem">
+                            <img src="./assets/img/Notification.png" alt="notifica">
+                            <a href="">Notificações</a>
+                        </li>
+
+                        <li class="menuItem">
+                            <img src="./assets/img/Group.png" alt="mensagens">
+                            <a href="">Mensagens</a>
+                        </li>
+
+                        <li class="menuItem">
+                            <img src="./assets/img/Group (1).png" alt="itens">
+                            <a href="">Itens Salvos</a>
+                        </li>
+
+                        <li class="menuItem">
+                            <img src="./assets/img/Group (2).png" alt="listas">
+                            <a href="">Listas</a>
+                        </li>
+
+                        <li class="menuItem">
+                            <img src="./assets/img/profil.jpg" alt="perfil">
+                            <a href="">Perfil</a>
+                        </li>
+
+                        <li class="menuItem">
+                            <img src="./assets/img/Group (3).png" alt="mais">
+                            <a href="">Mais</a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            </header>
+    <!---->
+            <!--Conteudo principal-->
+            <main class="principal">
+                <!--Home titulo-->
+                <h3  class="mainTitulo"> Home</h3>
+                <!--TWEETAR-->
+                <form class="mainForm">
+                        <textarea name="tweet" placeholder="O que está acontecendo?"></textarea>
+                        <button type="submit" class="btnTweet">Tweetar</button>
+                </form>
+                <!--FEED-->
+
+                <section class="mainFeed">
+                    <!--LISTA DE NOTICIAS-->
+                    <ul class="mainTweets">
+
+                        <!--CADA NOTICIA-->
+                        <li class="mainTweet">
+                            <!--imagem usuario-->
+                            <img class="ftPerfil" src="./assets/img/black.png" alt="Daniel">
+                            <!--informação usuario-->
+                            <div class="tweetConteudo">
+                                <h2>Ser Humano Primário</h2>
+                                <span>@oprimeiro 10s</span>
+                                <p>#paz&amor #luto</p>
+                            </div>
+                        </li>
+                        <!--CADA NOTICIA/TWEET-->
+                        <li class="mainTweet">
+                            <!--imagem usuario-->
+                            <img class="ftPerfil" src="./assets/img/black.png" alt="Daniel">
+                            <!--informação usuario-->
+                             <div class="tweetConteudo">
+                                <h2>Ser Humano Secundário</h2>
+                                <span>@osegundo 10s</span>
+                                <p>vamos lá #fazdireito </p>
+                            </div>
+                        </li>
+                        <!--CADA NOTICIA-->
+                        <li class="mainTweet">
+                            <!--imagem usuario-->
+                            <img class="ftPerfil" src="./assets/img/black.png" alt="Daniel">
+                            <!--informação usuario-->
+                            <div class="tweetConteudo">
+                                <h2>Ser Humano Terciário</h2>
+                                <span>@oterceiro 15s</span>
+                                <p>Graças a deus temos as melhores oportunidades #fé</p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </section>
+            </main>
+        </div>
+
+
+
+
+
+    <script type="text/javascript" src="./assets/js/index.js"></script>
+    </body>
+
+
+
+</html>
