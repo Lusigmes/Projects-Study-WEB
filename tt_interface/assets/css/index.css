@@ -1,0 +1,111 @@
+/*body*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container{    
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    margin: 0 auto;
+
+   
+ 
+}
+
+/*logo*/
+.cabeçalho{
+    flex-basis: 30%;
+}
+.logo{
+    margin-bottom: 50px ;
+}
+
+.logo  img{}
+.logo figcaption{
+    display: none;
+}
+
+/*menu*/
+.menuNaveg{}
+.menuLista{}
+.menuItem{
+    margin-bottom: 25px;
+}
+.menuItem img{
+    max-width: 26px;
+}
+.menuItem a{
+    color: #000;
+    font-size: 22px;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+/*conteudo principal*/
+.principal{
+    flex-basis: 70%;
+    border-left: 1px solid #e7ecf0;
+    border-right: 1px solid #e7ecf0;
+}
+/*nome home*/
+.mainTitulo{
+    padding: 10px 30px;
+   
+}
+
+/*area digitar tweet*/
+.mainForm{
+    padding: 10px 30px;
+    border-top: 1px solid #e7ecf0;
+    border-bottom: 10px solid #e7ecf0;
+    text-align: right;
+}
+.mainForm textarea{
+   display: block;
+   width: 100%;
+   border: none;
+   outline: none;
+   resize: none;
+   height: 55px;
+}
+.mainForm button{
+    background-color: #1da1f2;
+    border: none;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 20px;
+    opacity: 0.4;
+}
+
+/*feed de noticias*/
+.mainFeed{}
+.mainTweets{
+    display: flex;
+    flex-flow: column-reverse nowrap;
+}
+.mainTweet{
+    padding: 20px 32px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid  #e7ecf0;
+}
+
+.ftPerfil{}
+.tweetConteudo{
+    margin-left: 15px;
+}
+.tweetConteudo h2{
+    display: inline-block;
+}
+.tweetConteudo span{
+    display: inline-block ;
+    color: #828282;
+}
+
+.tweetConteudo p{
+    margin-top: 15px;
+    color:  #333333;
+}
