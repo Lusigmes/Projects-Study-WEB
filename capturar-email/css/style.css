@@ -1,0 +1,149 @@
+/*
+        .header{
+           overflow: hidden;
+           margin: auto;
+           background-color: rgb(222, 216, 216);
+           width: 80%;
+           padding: 15px;
+           font-size: 18px;
+        }
+        .menu{
+           list-style: none;
+            margin: 0;
+            padding: 0;
+            float: right;
+        }
+        .logo{
+            float:left;
+           
+            color: rgb(206, 177, 122);
+            
+        }   
+*/
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    
+    
+}
+
+/*cabeçalho*/
+header{
+    background-color: rgb(239, 94, 94);
+    color: white;
+    text-align: center;
+  
+    padding: 1px;
+    letter-spacing: 1px;
+}
+.container{
+    margin: auto;
+    width: 100%;
+    
+}
+.tittle{
+    
+    font-size: 25px;
+   
+}
+
+/*formulario de inscrição*/
+section{
+    padding: 20px;
+    background-image: url('../img/ruina.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container-form{
+    max-width: 230px;
+    background-color: rgb(109, 103, 103);
+    opacity: 0.9;
+    float: right;
+    padding: 20px;
+    
+}
+
+h2{
+    font-size: 20px;
+}
+p{
+    font-size: 14px;
+}
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{ /*input e select do for*/
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    
+    margin-bottom: 10px;
+
+}
+
+select{ /*select das opçoes do departamento*/
+    -moz-appearance: none ;
+    -webkit-appearance: none ;
+    appearance: none;
+
+    background-image: url('../img/seta-para-baixo\(1\).png');
+    
+    background-repeat: no-repeat;
+
+    background-position: calc(100% - 10px) center;
+
+   /* background-position-x: calc(100% - 10px);
+    background-position-y: center;*/
+
+}
+
+label{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    
+}
+input[type="submit"]{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+   
+}
+input[type="submit"]:hover{
+   
+    background-color: rgb(138, 43, 43);
+    cursor: pointer;
+   
+}
+footer{
+    background-color: #282121 ;
+    padding: 40px;
+    text-align: center;
+}
+.foto-perfil{
+    width: 200px;
+}
+.description{
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+}
+.description p, .description h3{
+   margin-bottom: 20px;
+}
+
+.description h3{
+    font-size: 24px;
+}
+
