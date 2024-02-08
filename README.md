@@ -1,2 +1,2 @@
 # Projects-Study-WEB
-projects made by me learning by differents sites
+dev web study
